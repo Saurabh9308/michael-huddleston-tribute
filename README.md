@@ -20,7 +20,7 @@ It was created as a beginner-friendly HTML & CSS project.
 - Tribute content with structured learning path section  
 
 ## 📸 Preview
-_Add a screenshot here (optional)_
+![Tribute Page Screenshot](./tributePage.png)
 
 ## 👤 Author
 **Saurabh Kadtan**  
