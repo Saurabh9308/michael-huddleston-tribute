@@ -1,0 +1,153 @@
+/* ---------- General Styles ---------- */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: linear-gradient(135deg, #0a2342, #19355c);
+  color: #fefefe;
+  text-align: center;
+  padding: 35px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #e4b400;
+}
+
+/* ---------- Main Content ---------- */
+.content {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* ---------- About Section ---------- */
+.about {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about figure {
+  margin: 0 auto 20px;
+}
+
+.about figure img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.about article h2 {
+  color: #0a2342;
+  margin-top: 20px;
+  font-size: 1.9rem;
+  border-bottom: 2px solid #e4b400;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.about article p {
+  font-size: 1rem;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+/* ---------- Learning Path Section ---------- */
+.path {
+  background-color: #ffffff;
+  border-left: 6px solid #e4b400;
+  border-radius: 8px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.path h2 {
+  color: #0a2342;
+  font-size: 1.6rem;
+}
+
+.path a {
+  color: #e4b400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.path a:hover {
+  text-decoration: underline;
+  color: #0a2342;
+}
+
+.path ol {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.path li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #0a2342, #19355c);
+  color: #fefefe;
+  width: 100%;
+  font-size: 0.95rem;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.15);
+  margin-top: 60px; /* adds space before footer */
+}
+
+footer p {
+  margin: 0;
+  color: #e4b400;
+}
+
+/* ---------- Hover & Transitions ---------- */
+a,
+img,
+button {
+  transition: all 0.3s ease;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .about article h2,
+  .path h2 {
+    font-size: 1.4rem;
+  }
+
+  .about figure img {
+    max-width: 100%;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
